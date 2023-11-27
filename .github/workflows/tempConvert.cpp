@@ -19,7 +19,7 @@ void fahrenheit() {
     // Catch if the temp is something wrong
     try {
         // Convert temp as a string to int
-        int userCelsiusInt = std::stoi(userCelsiusStr);
+        float userCelsiusInt = std::stof(userCelsiusStr);
 
         // calculation cel to fah
         float fahrenheitTemp = (userCelsiusInt * 9) / 5 + 32;
